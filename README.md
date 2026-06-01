@@ -125,7 +125,7 @@ Desarrollado para preparar la cartografía CAD de cooperativas eléctricas de la
 
 ## 👨‍💻 Autoría
 
-**UTN Facultad Regional Villa María**
+**Ing. Ricardo Luis Castro - UTN Facultad Regional Villa María**
 📍 Villa María, Córdoba, Argentina
 
 ---
