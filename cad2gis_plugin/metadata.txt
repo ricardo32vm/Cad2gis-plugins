@@ -1,0 +1,16 @@
+[general]
+name=CAD2GIS Georeferencer
+qgisMinimumVersion=3.16
+description=Georreferencia capas vectoriales provenientes de AutoCAD mediante transformación afín con puntos homólogos. Incluye separación de geometrías y reparación topológica.
+version=1.0.0
+author=UTN Facultad Regional Villa María
+email=contacto@frvm.utn.edu.ar
+about=Plugin para georreferenciar capas SHP/DXF provenientes de AutoCAD que no tienen sistema de referencia asignado. Permite marcar puntos homólogos entre la capa CAD y una capa de referencia georeferenciada, calcula la transformación afín por mínimos cuadrados y la aplica simultáneamente a todas las capas seleccionadas. Incluye herramientas de separación de geometrías mixtas y reparación topológica básica.
+tracker=https://github.com/ricardo32vm/cad2gis
+repository=https://github.com/ricardo32vm/cad2gis
+tags=cad, autocad, georreferenciación, transformación afín, vectorial, redes eléctricas, cooperativas
+homepage=https://github.com/ricardo32vm/cad2gis
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False

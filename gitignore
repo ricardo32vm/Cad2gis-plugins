@@ -1,0 +1,90 @@
+# ============================================================
+#  .gitignore — CAD2GIS Georeferencer (plugin QGIS)
+# ============================================================
+
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# ---------------------------
+# QGIS / Plugin
+# ---------------------------
+# Recursos Qt compilados (se regeneran con pyrcc5)
+resources_rc.py
+
+# Carpeta de instalación local
+__local_install__/
+*.zip
+
+# ---------------------------
+# Datos geoespaciales (no subir datos reales)
+# ---------------------------
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+*.sbn
+*.sbx
+*.dxf
+*.dwg
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+
+# Si tenés datos de ejemplo que SÍ querés versionar,
+# agregalos con: git add -f datos/ejemplo.shp
+
+# NOTA: los PDF NO están ignorados — el manual va incluido en el repo.
+
+# ---------------------------
+# IDEs y editores
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------------------------
+# Sistema operativo
+# ---------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ---------------------------
+# Logs y temporales
+# ---------------------------
+*.log
+*.tmp
+*.bak
+*.orig
